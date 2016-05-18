@@ -1,5 +1,5 @@
 /*
-  Your 3 Users will be the following. 
+  Your 3 Users will be the following.
     0) Tyler, tylermcginnis33@gmail.com, 'iLoveJS'
     1) Cahlan, cahlan@devmounta.in, 'iLoveHashtags'
     2) Lenny, lenny@theLenster.com, 'iLoveLentilSoup'
@@ -14,11 +14,19 @@ var User = function(name, email, pw){
 //Create an Array called 'users' that will store all our instances of User.
 
   //code here
+var users = [];
 
 
 //Now create and push into your users array 3 separate instances of User using the data from above in that exact order
-
+var tyler = new User("Tyler", 'tylermcginnis33@gmail.com', 'iLoveJS');
+var cahlan = new User('Cahlan', 'cahlan@devmounta.in', 'iLoveHashtags');
+var lenny = new User('Lenny', 'lenny@theLenster.com', 'iLoveLentilSoup');
+var  bob = new User('Bob', 'bc.bane4@gmail.com', 'nottaF*ingCh@nce');
   //code here
+users.push(tyler);
+users.push(cahlan);
+users.push(lenny);
+users.push(bob);
 
 console.log('Tyler\'s information is ');
 //Console.log all of Tylers information
@@ -36,6 +44,6 @@ console.log('Lenny\'s information is ');
   //code here
 
 console.log('All my users names are ');
-//Now loop through your users Array and console.log every users name. 
+//Now loop through your users Array and console.log every users name.
 
   //code here
